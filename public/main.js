@@ -1,5 +1,6 @@
   var localArtists = []
   getArtists();
+  document.getElementById("myForm").style.display = "none";
 
 
   const isEqual = (obj1, obj2) => {
